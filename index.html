@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
   <title>Guess the Word Game</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +16,16 @@
       font-family: "Outfit", sans-serif;
     }
 
+    body, html{
+      height: 100%;
+      overflow: hidden;
+    }
+
     body {
       position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
       background: linear-gradient(-90deg, #c951e7, #7429c6);
       padding: 20px;
     }
